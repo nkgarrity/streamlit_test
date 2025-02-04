@@ -19,7 +19,7 @@ st.set_page_config(page_title="Sample Analysis Dashboard", layout="wide")
 def load_data():
     try:
         # Replace with your GitHub raw data URL
-        url = "https://raw.githubusercontent.com/your-username/your-repo/main/data/samples_data.csv"
+        url = "https://raw.githubusercontent.com/nkgarrity/streamlit_test/main/data/samples_data.csv"
         df = pd.read_csv(url)
         return df
     except Exception as e:
